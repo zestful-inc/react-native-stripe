@@ -13,4 +13,5 @@ Pod::Spec.new do |s|
   s.source_files        = 'StripeNative/*.{h,m}'
 
   s.dependency 'Stripe'
+  s.dependency 'React'
 end
