@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/zestful-inc/react-native-stripe"
   s.author              = package['author']['name']
   s.license             = package['license']
+  s.platform            = :ios, "8.0"
   s.source              = { :git => "https://github.com/zestful-inc/react-native-stripe.git" }
   s.source_files        = 'StripeNative/*.{h,m}'
 
